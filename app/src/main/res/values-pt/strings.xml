@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Collecture</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_field_required">Campo Obrigatório</string>
+    <string name="error_incorrect_password">Senha Inválida</string>
+    <string name="error_invalid_email">E-mail Inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="prompt_password">Senha</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="RegisterName">Nome Completo</string>
+    <string name="Register">Registrar</string>
+    <string name="headernav">"Bem vindo(a), %1$s"</string>
+</resources>

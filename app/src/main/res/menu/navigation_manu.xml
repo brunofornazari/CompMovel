@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navCursos"
+        android:icon="@mipmap/ic_collections_black_24dp"
+        android:title="Meus Cursos" />
+
+    <item android:id="@+id/navAddCurso"
+        android:icon="@mipmap/ic_library_add_black_24dp"
+        android:title="Adicionar Novo Curso" />
+
+    <item android:id="@+id/navMoreInfo"
+        android:icon="@mipmap/ic_info_black_24dp"
+        android:title="+ Info" />
+</menu>
