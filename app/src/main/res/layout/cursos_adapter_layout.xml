@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCursoAdapter"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:padding="24dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxWidth="32dp"
+        android:paddingBottom="21dp"
+        android:paddingTop="20dp"
+        app:srcCompat="@mipmap/ic_keyboard_arrow_right_black_24dp" />
+</LinearLayout>

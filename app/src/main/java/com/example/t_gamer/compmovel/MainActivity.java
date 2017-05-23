@@ -1,6 +1,8 @@
 package com.example.t_gamer.compmovel;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+        if (getIntent().getBooleanExtra("LOGOUT", false))
+        {
+            finish();
+        }
+
         setContentView(R.layout.login);
     }
 
@@ -25,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         ScrollView scLoginForm = (ScrollView) findViewById(R.id.login_form);
         ProgressBar pbLogionProgress = (ProgressBar) findViewById(R.id.login_progress);
 
-        scLoginForm.setVisibility(View.INVISIBLE);
+        scLoginForm.setVisibility(View.GONE);
         pbLogionProgress.setVisibility(View.VISIBLE);
 
         Button btnRegistrar = (Button) findViewById(R.id.btnLoginRegister),
@@ -42,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, Home.class);
             startActivity(i);
         } else {
-            pbLogionProgress.setVisibility(View.INVISIBLE);
+            pbLogionProgress.setVisibility(View.GONE);
             scLoginForm.setVisibility(View.VISIBLE);
         }
     }

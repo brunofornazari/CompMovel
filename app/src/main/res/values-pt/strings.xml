@@ -12,4 +12,18 @@
     <string name="RegisterName">Nome Completo</string>
     <string name="Register">Registrar</string>
     <string name="headernav">"Bem vindo(a), %1$s"</string>
+    <string name="headerCursos">Meus Cursos</string>
+    <string name="cursosSubheader">Aqui você pode ver listado e navegar em cada curso e graduação em que você está registrado no momento.</string>
+    <string name="addCursoHeader">Adicionar Curso</string>
+    <string name="addCursoSubheader">Entre com as informações abaixo para cadastrar um novo curso ou graduação para que possamos ajudar a melhor organizar os seus arquivos</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="modulesSubheader">Aqui você pode ver e navegar entre cada um dos módulos/semestres que você tem registrado nesse curso</string>
+    <string name="headerModule">%1$s - Módulos</string>
+    <string name="classesHeader">%1$s</string>
+    <string name="classesSubheader">Matérias registradas para o %1$d° módulo</string>
+    <string name="addClass">Adicionar Matéria</string>
+    <string name="addClassSubheader">Insira as informações abaixo para que possamos registrar uma nova matéria na sua coleção</string>
+    <string name="welcomeAboard">Bem vindo à bordo!</string>
+    <string name="welcomeMessage">Estamos aqui para te receber e parabenizar no passo que está tomando para ter uma vida acadêmica ainda mais organizada!</string>
 </resources>

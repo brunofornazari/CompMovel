@@ -2,12 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:attr/colorBackground"
     tools:context="com.example.t_gamer.compmovel.AddCursoFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ProgressBar
-        android:id="@+id/pbRegister"
+        android:id="@+id/pbAddCurso"
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +14,7 @@
         android:visibility="gone" />
 
     <ScrollView
-        android:id="@+id/registerContainer"
+        android:id="@+id/addCursoContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -27,22 +26,22 @@
             android:visibility="visible">
 
             <TextView
-                android:id="@+id/tvWelcomeAboard"
+                android:id="@+id/tvAddCursoHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="18dp"
-                android:text="@string/welcomeAboard"
+                android:text="@string/addCursoHeader"
                 android:textSize="25sp" />
 
             <TextView
-                android:id="@+id/tvWelcomeSubheader"
+                android:id="@+id/tvAddCursoSubheader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="14dp"
-                android:text="@string/welcomeMessage" />
+                android:text="@string/addCursoSubheader" />
 
             <TextView
-                android:id="@+id/tvRegisterErrorContainer"
+                android:id="@+id/tvAddCursoErrorContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
@@ -57,39 +56,28 @@
                 android:padding="18dp">
 
                 <EditText
-                    android:id="@+id/etRegisterName"
+                    android:id="@+id/etAddCursoTitulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="@string/RegisterName"
+                    android:hint="@string/title"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/etRegisterEmail"
+                    android:id="@+id/mtAddCursoDescricao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="@string/prompt_email"
+                    android:hint="@string/description"
                     android:inputType="textMultiLine"
                     android:maxHeight="120dp" />
 
-                <EditText
-                    android:id="@+id/etRegisterPassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="@string/prompt_password"
-                    android:inputType="textMultiLine"
-                    android:maxHeight="120dp"
-                    android:password="true" />
-
                 <Button
-                    android:id="@+id/btnRegister"
+                    android:id="@+id/btnAddNewCurso"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="36dp"
                     android:background="@color/colorPrimary"
-                    android:onClick="onRegisterClick"
                     android:text="@string/Register"
                     android:textColor="@color/colorPrimaryLight" />
 

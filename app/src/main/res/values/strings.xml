@@ -19,4 +19,21 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="headernav">Welcome, %1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headerCursos">My Courses</string>
+    <string name="cursosSubheader">Here you can see and navigate to all the courses and graduations your registered in.</string>
+    <string name="addCursoHeader">Insert a new course</string>
+    <string name="addCursoSubheader">Insert the information below to regiter a new course so we can help you organize your files</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="headerModule">%1$s Modules</string>
+    <string name="modulesSubheader">Here you can see all the modules or semesters you have registered in your course</string>
+    <string name="classesHeader">%1$s</string>
+    <string name="classesSubheader">Classes registered for %1$d° module</string>
+    <string name="addClass">Insert new Class</string>
+    <string name="addClassSubheader">Insert a new class in your module</string>
+    <string name="welcomeAboard">Welcome Aboard!</string>
+    <string name="welcomeMessage">We are here to welcome and congratulate you on this step your taking towards having a more organized life!</string>
 </resources>
